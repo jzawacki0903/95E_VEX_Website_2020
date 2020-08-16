@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CEC TriBots Build Tips</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#dates").fadeToggle();
+    });
+});
+</script>
+</head>
+<style>
+header { text-align: center;
+		 padding: 5px; }
+	
+figure { width: 623px; border: 1px solid #000000; padding: 10px; }
+figcaption { text-align: center; }
+	
+	.jumbotron { text-align: center;
+				 background-color: lightgray; }
+		
+	nav { background-color: #ECECEC; }
+	
+h1 { font-size: 4em; }
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+		.nav-item { transition: 0.3s; }
+	
+	.nav-item:hover { background-color: rgba(31,120,186,1.00); 
+					   }
+	#tbutton { background-color: white; color: #3175FF; }
+	#tbutton:hover { color: darkblue; text-decoration: underline; }
+</style>
+<body>
+
+<div class="jumbotron text-center" id="top">
+	<header>
+		<img src="images/header.png" alt="CEC TriBots">
+	</header>
+</div> 
+	
+<div class="container">
+
+<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+  
+  <!-- Links -->
+  <ul class="navbar-nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="join.html">How to Join</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        About
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="vex.html">VEX Robotics</a>
+		<a class="dropdown-item" href="cec.html">The CEC</a>
+        <a class="dropdown-item" href="tribots.html">CEC TriBots</a>
+        <a class="dropdown-item" href="sponsors.html">Our Supporters</a>
+		<a class="dropdown-item" href="site.html">Our Website</a>
+		<a class="dropdown-item" href="outreach.html">Community Outreach</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="sierra.html">95S</a>
+        <a class="dropdown-item" href="tango.html">95T</a>
+        <a class="dropdown-item" href="echo.html">95E</a>
+      </div>
+    </li>
+	  <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Resources 
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="scout.html">Scouting Sheet</a>
+        <a class="dropdown-item active" href="build.html">Simple Build Concepts</a>
+        <a class="dropdown-item" href="program.html">Simple Programming Concepts</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<main>
+<div class="row">
+    <div class="col-sm-12">
+	  <h2><strong>Building Tips:</strong></h2>
+      <p>Throughout our collective experience, we have learned many useful tips and tricks to use while building a robot. Here are a few of the most useful, in our opinion.</p>
+	  
+	  <h3>Gear Ratios</h3>
+	  <p>Using gear ratios can allow you to adjust the speed or torque of an subsystem in motion without changing the speed of the motor. When powering a chain of gears, powering a small gear that drives a larger gear is a torque gear ratio, while powering a larger gear that drives a smaller gear is a speed gear ratio. When using subsystems that may be lifting or pushing heavy loads, a torque gear ratio is very useful, while a speed gear ratio is best used for something that needs to be fast, without pusing heavy loads.
+		 <figure class="center">
+	    <img src="images/ratio.png" width="600" height="480" alt="Team Members Working">
+	    <figcaption>Torque and Speed Gear Ratios</figcaption>
+	  </figure>
+		</p>
+		<hr>
+	  <h3>Pillow Bearings</h3>
+	  <p>When creating a drive, you generally want to create a drive that has enough torque to play defence on other robots, but with enough speed to traverse the field in a matter of seconds. One way you can increase the speed of your robot without compromising on torque is to use pillow bearings instead of regular bearings. Pillow bearings are made out of a different type of plastic than regular bearings, resulting in pillow bearings having much less friction. Pillow bearings are mounted either on top of, or on the underside of, your chassis, to where the motor is in a position perpendicular from the ground to power it.
+		 <figure class="center">
+	    <img src="images/pillow.jpg" width="600" height="480" alt="BEST 2017-18 Robot">
+	    <figcaption>A Pillow Bearing and its Accompanying Part</figcaption>
+	  </figure>
+		</p>
+		
+		</p>
+		<a href="#top">Back to Top</a>
+		<hr>
+	</div>
+    
+  </div>
+	<br>
+</main>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <small><em><p>©CEC TriBots <div>This page was last modified on: <script>
+document.write(document.lastModified);	
+</script></div>
+	<div>Contact our sponsor at: <a href="mailto:scott.brown@cowetachools.net" target="_blank">scott.brown@cowetaschools.net</a></div></p></em></small>
+</div>
+	
+</body>
+</html> 

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CEC TriBots 95S</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#teamorder").fadeToggle();
+    });
+});
+</script>
+</head>
+<style>
+header { text-align: center;
+		 padding: 5px; }
+	
+figure { width: 623px; border: 1px solid #000000; padding: 10px; }
+figcaption { text-align: center; }
+	
+	.jumbotron { text-align: center;
+				 background-color: lightgray; }
+		
+	nav { background-color: #ECECEC; }
+	
+h1 { font-size: 4em; }
+		.nav-item { transition: 0.3s; }
+	
+	.nav-item:hover { background-color: rgba(31,120,186,1.00); 
+					   }
+#tbutton { background-color: white; color: #3175FF; }
+	#tbutton:hover { color: darkblue; text-decoration: underline; }
+</style>
+<body>
+
+<div class="jumbotron text-center" id="top">
+	<header>
+		<img src="images/header.png" alt="CEC TriBots">
+	</header>
+</div> 
+	
+<div class="container">   
+
+<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+  
+  <!-- Links -->
+  <ul class="navbar-nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="join.html">How to Join</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        About
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="vex.html">VEX Robotics</a>
+		<a class="dropdown-item" href="cec.html">The CEC</a>
+        <a class="dropdown-item" href="tribots.html">CEC TriBots</a>
+        <a class="dropdown-item" href="sponsors.html">Our Supporters</a>
+		<a class="dropdown-item" href="site.html">Our Website</a>
+		<a class="dropdown-item" href="outreach.html">Community Outreach</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item active" href="sierra.html">95S</a>
+        <a class="dropdown-item" href="tango.html">95T</a>
+        <a class="dropdown-item" href="echo.html">95E</a>
+      </div>
+    </li>
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Resources 
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="scout.html">Scouting Sheet</a>
+        <a class="dropdown-item" href="build.html">Simple Build Concepts</a>
+        <a class="dropdown-item" href="program.html">Simple Programming Concepts</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<main>
+<div class="row">
+    <div class="col-sm-8">
+	  <h2><strong>About Team 95S:</strong></h2>
+      <p>“Team 95S includes three students who are in eighth, eleventhl, and twelfth grade. Returning members to the CEC TriBots include Team Leaders Alejandro Cervantes and Ashley Hiller. New to the CEC TriBots is Kendarius Ward. Ashley has participated in the CEC TriBots for three years, and Alejandro has participated for two years.”  -Alejandro Cervates 12/29/19</p>
+	  <figure>
+	    <img src="images/S_GP.jpg" width="600" height="480" alt="Team 95S Group Picture">
+	    <figcaption><button class="center" id="tbutton"><strong>Team 95S</strong></button><br>
+		  <p style="display:none;" id="teamorder">Left to right: Ashley Hiller, Alejandro Cervantes, Kendarius Ward.</p>
+		  </figcaption>
+	  </figure>
+		<hr>
+	  <br>
+	</div>
+    <div class="col-sm-4">
+	<div class="jumbotron">
+      <h3>Team Members:</h3>
+		<hr>
+		<p><strong>Alejandro Cervantes</strong><br>Co-Captain</p>
+		<hr>
+		<p><strong>Ashley Hiller</strong><br>Co-Captain</p>
+		<hr>
+		<p><strong>Kendarius Ward</strong><br>Team Member</p>
+		<hr>
+	</div>
+    
+  </div>
+	
+<div class="row">
+	
+	<div class="col-sm-5">
+	  <div class="card" style="width:400px">
+  		<img class="card-img-top" src="images/S_robot.jpg" alt="Team 95S's Robot">
+  		<div class="card-body">
+    		<h4 class="card-title">Team 95S's Robot</h4>
+    		<p class="card-text">Updated 1/8/2020</p>
+  		</div>
+      </div>
+	</div>
+	
+	<div class="col-sm-7">
+	<p>"Team 95S's robot is of the Simple Tray archetype, which uses a roller intake subsystem attached to a tray, which consists of two stages and can hold eight cubes. The tray is mounted to a tilter mechanism, which pushes the tray into a perpendicular position, where we can outtake and back up to score stacks. We can also overflow the tray into towers to score."  -Ashley Hiller 12/29/19</p>
+	
+	</div>
+	
+	</div>
+	<br>
+	<a href="#top">Back to Top</a>
+	<hr>
+</main>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <small><em><p>©CEC TriBots <div>This page was last modified on: <script>
+document.write(document.lastModified);	
+</script></div>
+	<div>Contact our sponsor at: <a href="mailto:scott.brown@cowetachools.net" target="_blank">scott.brown@cowetaschools.net</a></div></p></em></small>
+</div>
+	
+</body>
+</html> 

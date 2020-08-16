@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CEC TriBots VEX</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#dates").fadeToggle();
+    });
+});
+</script>
+</head>
+<style>
+header { text-align: center;
+		 padding: 5px; }
+	
+figure { width: 623px; border: 1px solid #000000; padding: 10px; }
+figcaption { text-align: center; }
+	
+	.jumbotron { text-align: center;
+				 background-color: lightgray; }
+		
+	nav { background-color: #ECECEC; }
+	
+h1 { font-size: 4em; }
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+		.nav-item { transition: 0.3s; }
+	
+	.nav-item:hover { background-color: rgba(31,120,186,1.00); 
+					   }
+	#tbutton { background-color: white; color: #3175FF; }
+	#tbutton:hover { color: darkblue; text-decoration: underline; }
+</style>
+<body>
+
+<div class="jumbotron text-center" id="top">
+	<header>
+		<img src="images/header.png" alt="CEC TriBots">
+	</header>
+</div> 
+	
+<div class="container">
+
+<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+  
+  <!-- Links -->
+  <ul class="navbar-nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="join.html">How to Join</a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        About
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item active" href="vex.html">VEX Robotics</a>
+		<a class="dropdown-item" href="cec.html">The CEC</a>
+        <a class="dropdown-item" href="tribots.html">CEC TriBots</a>
+        <a class="dropdown-item" href="sponsors.html">Our Supporters</a>
+		<a class="dropdown-item" href="site.html">Our Website</a>
+		<a class="dropdown-item" href="outreach.html">Community Outreach</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="sierra.html">95S</a>
+        <a class="dropdown-item" href="tango.html">95T</a>
+        <a class="dropdown-item" href="echo.html">95E</a>
+      </div>
+    </li>
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Resources 
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="scout.html">Scouting Sheet</a>
+        <a class="dropdown-item" href="build.html">Simple Build Concepts</a>
+        <a class="dropdown-item" href="program.html">Simple Programming Concepts</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<main>
+<div class="row">
+    <div class="col-sm-12">
+	  <h2><strong>What is VEX?</strong></h2>
+      <p>VEX Robotics is a robotic competition platform used by schools and organizations from elementary school level to college level. Each season, VEX Robotics releases new competitions for each level of teams to participate in. VEX Robotics has a variety of parts that teams use to construct their individual robots, with which they take to locally hosted competitions to compete. There are multiple levels of competition, with scrimages having no real oppurtinities for advancement to the SState or World competitons. Regional competitions, however<a href="images/cat.jpg" target="_blank">,</a> give the winners of the tournament and of various other awards a ticket to the State Championship. As expected, winners of various awards at the State Championship, and winners at the World Championship can gain various acolaydes for their schools or organizations. There are also VEX Online Challenges, including A CADD Design Challenge, 3D Animation Challenge, and many more, that all give the winners a ticket to the World Championship.
+</p>
+	  
+	  <h3>Tower Takeover</h3>
+	  <p>This year's VEX Robotics challenge is named <a href="https://www.youtube.com/watch?v=_JVQOiw_OUU" target="_blank">Tower Takeover</a>. The main objectives of the challenge are to stack cubes of various colors, orange; purple; and green, into goal zones in the corners of the field, and to place cubes into towers of various heights to multiply the value of cubes scored in the goal zones. Cubes scored in towers only multiply point values of cubes of the same color, however. For example, if a team has three purple cubes scored, and they place one purple cube into a tower, all purple cubes have their value increased by one point, bringing their total up to six points, rather than three. Tower Takeover is a challenge that involves much strategy, as well as swift acquisition of cubes to score stacks as tall as possible. 
+		 <figure class="center">
+	    <img src="images/cube.jpg" width="600" height="480" alt="Team Members Working">
+	    <figcaption>Orange Tower Takeover Cube</figcaption>
+	  </figure>
+		</p>
+		<hr>
+	  <h3>Popular Design</h3>
+	  <p>The overall most popular design in this season, as of my writing this, is the traybot. The traybot design serves multiple purposes, allowing teams to complete every task in Tower Takeover with maximum efficiency. There are multiple variations of the traybot, each with stark differences, but all effective nonetheless. The first variation of the traybot to spring up in Tower Takeover was the simple traybot. The simple traybot uses roller intakes mounted to a tray, which folds to fit in size, to score large quanities of cubes at once. The simple traybot can overflow its tray into towers, allowing it to score stacks of cubes and score in towers. The next design to spring up was the complex traybot. The complex traybot also consists of a folding tray to score cubes, but has roller intakes mounted to a separate lift subsystem to score cubes in towers. The lift subsystem utilized by the complex traybot makes scoring cubes in towers an easy task. The most recent design to make an appearance is the lift traybot. The lift traybot attaches the tray and roller intake subsystems to a double reverse four bar (DR4B) lift in order to easily and efficiently score all towers. Lift traybots are sometimes able to stack stacks of cubes on top of other stacks, although this is very hard to do and rare. While these are by no means the only designs this season, they are the most widely used and effective.
+		 <figure class="center">
+	    <img src="images/erobot2020.jpg" width="600" height="480" alt="BEST 2017-18 Robot">
+	    <figcaption>Complex Traybot (95E)</figcaption>
+	  </figure>
+		</p>
+	  
+		<a href="#top">Back to Top</a>
+		<hr>
+	</div>
+    
+  </div>
+	<br>
+</main>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <small><em><p>©CEC TriBots <div>This page was last modified on: <script>
+document.write(document.lastModified);	
+</script></div>
+	<div>Contact our sponsor at: <a href="mailto:scott.brown@cowetachools.net" target="_blank">scott.brown@cowetaschools.net</a></div></p></em></small>
+</div>
+	
+</body>
+</html> 

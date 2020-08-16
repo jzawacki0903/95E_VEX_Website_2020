@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CEC TriBots TriBots</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#dates").fadeToggle();
+    });
+});
+</script>
+</head>
+<style>
+header { text-align: center;
+		 padding: 5px; }
+	
+figure { width: 623px; border: 1px solid #000000; padding: 10px; }
+figcaption { text-align: center; }
+	
+	.jumbotron { text-align: center;
+				 background-color: lightgray; }
+		
+	nav { background-color: #ECECEC; }
+	
+h1 { font-size: 4em; }
+	
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+		.nav-item { transition: 0.3s; }
+	
+	.nav-item:hover { background-color: rgba(31,120,186,1.00); 
+					   }
+	#tbutton { background-color: white; color: #3175FF; }
+	#tbutton:hover { color: darkblue; text-decoration: underline; }
+</style>
+<body>
+
+<div class="jumbotron text-center" id="top">
+	<header>
+		<img src="images/header.png" alt="CEC TriBots">
+	</header>
+</div> 
+	
+<div class="container">
+
+<nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+  
+  <!-- Links -->
+  <ul class="navbar-nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="join.html">How to Join</a>
+    </li>
+    <li class="nav-item dropdown active">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        About
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="vex.html">VEX Robotics</a>
+		<a class="dropdown-item" href="cec.html">The CEC</a>
+        <a class="dropdown-item active" href="tribots.html">CEC TriBots</a>
+        <a class="dropdown-item" href="sponsors.html">Our Supporters</a>
+		<a class="dropdown-item" href="site.html">Our Website</a>
+		<a class="dropdown-item" href="outreach.html">Community Outreach</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Teams
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="sierra.html">95S</a>
+        <a class="dropdown-item" href="tango.html">95T</a>
+        <a class="dropdown-item" href="echo.html">95E</a>
+      </div>
+    </li>
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Resources 
+      </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="scout.html">Scouting Sheet</a>
+        <a class="dropdown-item" href="build.html">Simple Build Concepts</a>
+        <a class="dropdown-item" href="program.html">Simple Programming Concepts</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<main>
+<div class="row">
+    <div class="col-sm-12">
+	  <h2><strong>Our Team:</strong></h2>
+      <p>We are the CEC TriBots, a division of teams that participate in the VEX Robotics High School Competition. We are four teams made up of students chosen from the three local high schools that go to the Central Educational Center, a school that teaches the core courses, as well as electives such as Pre-Engineering, Web Design, and other electives that allow students to give a taste of what that career may look like for their future. We compete in competitions in the state of Georgia in hopes of gaining tickets to the State and World Championships. More importantly, we compete to learn about robotics and engineering and to have fun.</p>
+	  
+	  <h3>Our Story</h3>
+	  <p>The CEC TriBots have been participating in VEX Robotics since 2011, starting with the competition known as Gateway. The name <em>TriBots</em> gets its origins through the fact that the CEC TriBots consists of students from the three high schools in the school system, hence Tri in TriBots. The T and B in TriBots are both capitalized to honor the memory of a VEX member, Thomas Broadwater, who passed away in a car accident some years ago.
+		 <figure class="center">
+	    <img src="images/team_build.jpg" width="600" height="480" alt="Team Members Working">
+	    <figcaption>Team Members Working</figcaption>
+	  </figure>
+		</p>
+		<hr>
+	  <h3>Our Other Programs</h3>
+	  <p>The CEC TriBots compete in multiple robotics competitions outside of VEX Robotics each year. For the past few years, the CEC TriBots have competed in the BEST Robotics competition. The CEC TriBots participates in both the Marketing and Robotics aspects of VEX Robotics, with moderate success in each. In the 2017-18 BEST Competition, our company, CEC Hydrodynamics and Rescue, won first place in the CADD challenge and third place in the Marketing Presentation, with slightly lower scores in everything else. New this year, the CEC TriBots will also be participating in this year's MATE ROV competition, which involves building robots that participate in underwater challenges.
+		 <figure class="center">
+	    <img src="images/robot3.jpg" width="600" height="480" alt="BEST 2017-18 Robot">
+	    <figcaption>CEC TriBots BEST Robot 2017-18</figcaption>
+	  </figure>
+		</p>
+		<hr>
+	  <h3>Our Schedule</h3>
+	  <p>The CEC TriBots compete in five to seven tournaments in the state of Georgia each VEX season. This year, we will be competing in the following tournaments:<br><br>
+		  
+	<button class="center" id="tbutton"><strong>Click to view our tournament schedule</strong></button><br>
+		  
+		<div class="col-sm-6 center" id="dates" style="display:none;">  
+		<div class="jumbotron">
+      <h3>Events This Season:</h3>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-8409.html" target="_blank">Ola VEX Qualifier</a></strong><br>October 5, 2019</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-8410.html" target="_blank">Ola VEX Spooktacular</a></strong><br>October 19, 2019</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-8722.html" target="_blank">Dutchtown High School VEX Robotics Tournament</a></strong><br>November 2, 2019</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-9097.html" target="_blank">West Tower Takeover</a></strong><br>November 16, 2019</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-8300.html" target="_blank">10th Annual CEC VEX Robotics Tournament</a></strong><br>December 7, 2019</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-0858.html" target="_blank">Carroll County 1st Annual Qualifier</a></strong><br>January 11, 2020</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-1142.html" target="_blank">Kennesaw State University VRC Tournament</a></strong><br>January 18, 2020</p>
+		<hr>
+	  <p><strong><a href="http://www.robotevents.com/RE-VRC-19-9453.html" target="_blank">NCCA January VCR Qualifier</a></strong><br>January 25, 2020</p>
+		<hr>
+	  <p><strong><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-9221.html" target="_blank">Georgia VEX State Championship</a></strong><br>Feburary 7-8, 2020</p>
+		<hr>
+    </div>
+		</div>
+		The CEC TriBots meet Monday through Thursday every week from early September until the end of the season to build and practice with their robots. The CEC TriBots also meet every other Saturday from nine in the morning until three in the afternoon. The tournaments are scheduled in a way so there is at least one tournament a month starting in October so we can compete regularly. 
+		<br>
+		<br>
+
+		</p>
+		<a href="#top">Back to Top</a>
+		<hr>
+	</div>
+    
+  </div>
+	<br>
+</main>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <small><em><p>©CEC TriBots <div>This page was last modified on: <script>
+document.write(document.lastModified);	
+</script></div>
+	<div>Contact our sponsor at: <a href="mailto:scott.brown@cowetachools.net" target="_blank">scott.brown@cowetaschools.net</a></div></p></em></small>
+</div>
+	
+</body>
+</html> 
